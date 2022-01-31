@@ -9,6 +9,7 @@ package com.example.jse.m01.s04;
  * @author Emanuele Galli
  */
 public class Simple {
+	//args --> argomenti che passa l'utente
     public static void main(String[] args) {
         // output a string to console
         System.out.print("Hello, ");
