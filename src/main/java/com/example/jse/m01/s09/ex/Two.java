@@ -12,8 +12,8 @@ public class Two {
         // (1) Convert the full array in a string and print it
         System.out.print("Full array is: ");
         
-        System.out.println(Arrays.toString(two[0])+Arrays.toString(two[1]));
-        
+        //System.out.println(Arrays.toString(two[0])+Arrays.toString(two[1]));
+        System.out.println(Arrays.deepToString(two));
         // (2) Convert just the Italian greetings in a string and print it
         System.out.print("Italian greeting is: ");
         System.out.println(Arrays.toString(two[0]));
