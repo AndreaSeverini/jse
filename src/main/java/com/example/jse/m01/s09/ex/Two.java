@@ -9,7 +9,6 @@ public class Two {
         System.out.print("First subelement in the second element is: ");
         System.out.println(two[1][0]);
 
-        // TODO:
         // (1) Convert the full array in a string and print it
         System.out.print("Full array is: ");
         
