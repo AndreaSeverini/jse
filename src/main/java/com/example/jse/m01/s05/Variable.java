@@ -13,14 +13,14 @@ public class Variable {
         System.out.println(noReference);
 
         // Java 10 inferred type
-        int anotherPrimitiveVariable = 12;
-        String anotherReferenceVariable = "Tom";
+        var anotherPrimitiveVariable = 12;
+        var anotherReferenceVariable = "Tom";
 
         System.out.println(anotherReferenceVariable);
         System.out.println(anotherPrimitiveVariable);
 
         final int A_CONSTANT = 12;
-        final int ANOTHER_CONSTANT = 21;
+        final var ANOTHER_CONSTANT = 21;
         System.out.println(A_CONSTANT + ANOTHER_CONSTANT);
 
         // a final variable can't change!
