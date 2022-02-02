@@ -41,6 +41,7 @@ public class Exercise4 {
     		}
     		i++;
     	}
+    	System.out.print("|                                         |\n");
     	System.out.print("-------------------------------------------\n");
     }
 }
