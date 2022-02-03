@@ -9,4 +9,15 @@ public class Vehicle {
     public Vehicle() {
         log.info("Vehicle created");
     }
+    
+    public void steer(boolean steer) {
+    	if(steer == true) {
+    		log.info("Steering Right");
+    	} else {
+    		log.info("Steering Left");
+    	}
+    }
+    public void brake() {
+    	log.info("Braking");
+    }
 }
